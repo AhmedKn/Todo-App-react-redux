@@ -1,0 +1,20 @@
+.Hedear-section{
+    color:white;
+    background-color: #35495D;
+    width: 900px;
+    height: 168px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    font-family: sans-serif;
+    
+}
+#root{
+    display: flex;
+    justify-content: center;
+}
+

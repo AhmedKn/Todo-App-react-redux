@@ -1,0 +1,95 @@
+.item-section{
+    list-style: none;
+}
+
+.name-cheked{
+display: flex;
+align-items: center;
+width: 700px;
+}
+.Not-Lined{
+    font-size: 25px;
+    padding-left: 10px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.Lined{
+    font-size: 25px;
+    padding-left: 10px;
+    color: grey;
+    font-family: sans-serif;
+    text-decoration: line-through;
+}
+
+.item-section-notLined{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2ABB9C;
+    padding: 0px 25px;
+    border-top: solid rgb(1, 145, 114) 0.5px ;
+    border-left:solid rgb(1, 145, 114) 0.5px;
+    border-left: solid rgb(1, 145, 114) 0.5px;
+}
+.item-section-Lined{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #C2C2C2;
+    padding: 0px 25px;
+    
+}
+.fa-circle{
+color: white;
+font-size: 21px;
+}
+
+.fa-edit{
+    font-size: 20px;
+    color: white;
+}
+.btn-modify{
+    background-color: rgb(0, 170, 56);
+    border: none;
+    height: 46px;
+    width: 42px;
+}
+.fa-trash{
+    font-size: 20px;
+    color: white;
+}
+.btn-delete{
+    background-color: rgb(234, 60, 60);
+    border: none;
+    height: 46px;
+    width: 42px;
+}
+.fa-check-circle{
+    color: rgb(0, 170, 56);
+font-size: 21px;
+}
+
+.editable-section{
+    background-color:  #2ABB9C;
+    display: flex;
+    align-items: center;
+    height: 78px;
+}
+.edit-input{
+    width: 300px;
+    height: 35px;
+    margin-left: 20px;
+    padding-left:10px;
+    border: none;
+}
+.update-btn{
+    width:40px;
+    height: 35px;
+    background-color: green;
+    border: none;
+}
+.fa-check{
+    color: white;
+    font-size: 22px;
+}
